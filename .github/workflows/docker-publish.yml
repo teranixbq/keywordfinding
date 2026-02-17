@@ -28,6 +28,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: |
-          ${{ secrets.DOCKER_USERNAME }}/keywordfinding:latest
-          ${{ secrets.DOCKER_USERNAME }}/keywordfinding:${{ github.sha }} 
+        tags: ${{ secrets.DOCKER_USERNAME }}/keywordfinding:latest
