@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.env
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+.gemini
+debug-*
+server.log
+*.html
+src/scripts
